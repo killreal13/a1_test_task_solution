@@ -116,5 +116,3 @@ SELECT name, birth_date FROM clients WHERE MONTH(GETDATE()) + 1 = MONTH(birth_da
 | name | birth\_date |
 | :----|:----------|
 | Tyrion Lannister | 1886-11-26 |
-
-[fiddle](https://dbfiddle.uk/u1kA9rd6)
